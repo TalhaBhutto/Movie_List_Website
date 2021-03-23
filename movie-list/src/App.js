@@ -1,10 +1,6 @@
 import './App.css';
 import Card from "./card";
 import S_data from "./S_data";
-
-function ncard(val,index,arr){
-  return(<Card imgsrc={val.imgsrc} title={val.title} SName={val.SName} link={val.link}/>);
-}
 function App() {
   return (
     <div>
