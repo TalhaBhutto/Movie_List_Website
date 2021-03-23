@@ -11,7 +11,8 @@ const S_data=[
     SName:"Mirzapur",
     link:"https://www.amazon.com/Mirzapur-Season-1/dp/B086VXR733"},
     
-    {imgsrc:"/images/CI3.jpg",
+    {
+    imgsrc:"/images/CI3.jpg",
     title:"A Netflix Original Series",
      SName:"Money Heist",
      link:"https://www.netflix.com/pk/title/80192098"},
