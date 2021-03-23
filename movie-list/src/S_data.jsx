@@ -20,10 +20,14 @@ const S_data=[
      title:"A Netflix Original Series",
       SName:"Dark",
       link:"https://www.netflix.com/pk/title/80100172"},
-    {imgsrc:"/images/CI5.jpg",
-    title:"A Netflix Original Series",
-     SName:"Ertugrul",
-     link:"https://www.netflix.com/pk/title/80127001"},
+      {imgsrc:"/images/CI5.jpg",
+      title:"A Netflix Original Series",
+       SName:"Ertugrul",
+       link:"https://www.netflix.com/pk/title/80127001"},
+       {imgsrc:"/images/CI6.jpg",
+        title:"A Netflix Original Series",
+        SName:"Lucifer",
+        link:"https://www.netflix.com/pk/title/80057918"},
     
 ]
 
