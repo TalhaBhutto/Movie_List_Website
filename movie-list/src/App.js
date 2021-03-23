@@ -2,16 +2,14 @@ import './App.css';
 import Card from "./card";
 import S_data from "./S_data";
 
+function ncard(val,index,arr){
+  return(<Card imgsrc={val.imgsrc} title={val.title} SName={val.SName} link={val.link}/>);
+}
 function App() {
   return (
     <div>
       <h1 className="heading_style">List of Top 6 Series in 2021</h1>
-      <Card imgsrc={S_data[0].imgsrc} title={S_data[0].title} SName={S_data[0].SName} link={S_data[0].link}/>
-      <Card imgsrc={S_data[1].imgsrc} title={S_data[1].title} SName={S_data[1].SName} link={S_data[1].link}/>
-      <Card imgsrc={S_data[2].imgsrc} title={S_data[2].title} SName={S_data[2].SName} link={S_data[2].link}/>
-      <Card imgsrc={S_data[3].imgsrc} title={S_data[3].title} SName={S_data[3].SName} link={S_data[3].link}/>
-      <Card imgsrc={S_data[4].imgsrc} title={S_data[4].title} SName={S_data[4].SName} link={S_data[4].link}/>
-      <Card imgsrc={S_data[5].imgsrc} title={S_data[5].title} SName={S_data[5].SName} link={S_data[5].link}/>
+      {S_data.map(val=><Card imgsrc={val.imgsrc} title={val.title} SName={val.SName} link={val.link}/>)}
     </div>
   );
 }
